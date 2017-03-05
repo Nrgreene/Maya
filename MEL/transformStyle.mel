@@ -1,2 +1,4 @@
-scale -r 1.826914 1.826914 1.826914 "pTorus1";
 #transform attribute > xyz values > specificed object is defined last
+move -r -3.213466 2.636896 1.235794 ;
+rotate -r -os -fo -49.784325 53.915789 2.23623 "pTorus1";
+scale -r 1.826914 1.826914 1.826914 "pTorus1";

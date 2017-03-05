@@ -28,6 +28,6 @@ else:
         pd_pose_name = nrg.promptDialog(q=True, text = True)
         
         nrg.internalVar(usd=True)
-        nrg.shelfButton(l=pd_pose_name, annotation=pd_pose_name, imageOverlayLabel=pd_pose_name) # ,ill= "insert desired 'image_name.jpg' as shelf button", command=storeCmds, p="DT_PYTHON", sourcetype="mel")
+        nrg.shelfButton(l=pd_pose_name, annotation=pd_pose_name, imageOverlayLabel=pd_pose_name, ill= insert_image_name.jpg, command=storeCmds, p="DT_PYTHON", sourcetype="mel")
             
          

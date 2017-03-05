@@ -1,0 +1,26 @@
+//Constraint Placement
+//this is a tool I'm practicing with to make an object follow the constrains of several parents without snapping
+
+//finds selected object
+string $constrained_obj[] = `ls -sl`;
+
+//createss locator
+string $loc[] = `spaceLocator`;
+
+//aligns locator to constrained object
+delete `parentConstraint $constrained_obj[0] $loc[0]`;
+
+//finds current frame
+float $current_time = `currentTime -q`;
+
+float $currentTime_plus = $current_time + 1;
+
+setKeyframe $constrained_obj[0];
+
+currentTime $currentTime_plus;
+
+string $parent_cns_obj[] = `parentConstraint $constrained_obj[0] $loc[0]`;
+
+setKeyframe $constrained_obj[0];
+
+delete $parent_cns_obj[0]; delete $loc[0]

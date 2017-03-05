@@ -1,0 +1,2 @@
+scale -r 1.826914 1.826914 1.826914 "pTorus1";
+#transform attribute > xyz values > specificed object is defined last

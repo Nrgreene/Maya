@@ -1,5 +1,2 @@
-# Maya
-a library of my scripting practice tools for Maya
-these scripts are for my educational practice in using python for Maya and MEL (Maya Embedded Language) for animation simplification.
-
-These scripts are used to create shortcuts to create a simpler workflow when using Maya for modeling, rigging, and animating.
+# Maya Practice Tools and Scripts 
+This repository contains a series of practice scripts using Python and MEL (Maya Embedded Language) that are applied to Autodesk Maya. These scripts help simplify users workflow in Maya by creating shortcuts and UIs for 3D Modeling, Rigging, and Animation purposes. So far these are general scripts to help the users get a better understanding of how coding in Maya works at a beginner level. Using this as a baseline, I can later provide my own set of tools that can be useful for users in the 3D industry. 
